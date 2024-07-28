@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: social_oauth2
+
+  security:
+    user:
+      name: user
+      password: 1234
+      
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: ${CLIENT_ID_GITHUB}
+            clientSecret: ${CLIENT_SECRET_GITHUB}
